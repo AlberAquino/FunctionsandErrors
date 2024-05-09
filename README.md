@@ -53,16 +53,12 @@ contract Alber {
 }
 ```
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+
 
 ## Authors
 
-Contributors names and contact info
+
 
 . Alber C Aquino  
 . https://www.facebook.com/DBGTK
