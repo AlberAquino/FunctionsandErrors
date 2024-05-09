@@ -1,6 +1,7 @@
 # Project Title
 
-Simple overview of use/purpose.
+ETH: Functions are essential components of smart contracts in Ethereum. Self-executing contracts, or smart contracts, have the conditions of the contract explicitly encoded into the code. These contracts' behaviors are defined by their functions. They are capable of carrying out a number of functions, including exchanging tokens, changing contract states, communicating with other contracts, and carrying out business logic.
+AVAX: Functions are crucial parts of smart contracts in Avalanche as well. Avalanche facilitates the development of smart contracts and decentralized applications (dApps). Functions including voting procedures, token transfers, decentralized finance (DeFi) operations, and more can be defined in these contracts.
 
 ## Description
 
