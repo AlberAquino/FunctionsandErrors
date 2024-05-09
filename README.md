@@ -2,7 +2,7 @@
 
 A basic Solidity smart contract that shows how to use the require(), assert(), and revert() statements can be found in this repository. In the creation of smart contracts, these assertions are crucial for managing special situations, verifying internal state, and imposing preconditions.
 
-#Requirements
+# Requirements
 
 In order to communicate with the smart contract, you must:
 
