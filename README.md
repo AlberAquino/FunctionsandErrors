@@ -19,6 +19,27 @@ An in-depth paragraph about your project and overview of use.
 * Step-by-step bullets
 ```
 code blocks for commands
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Alber {
+    uint256 public myNumber;
+
+    function setNumber(uint256 _num) external {
+        // Using require() to validate input
+        require(_num != 0, "Number cannot be zero");
+        
+        // Using assert() to validate internal state
+        assert(myNumber + _num > myNumber);
+
+        // Using revert() to revert the transaction
+        if (_num > 100) {
+            revert("Number is too large");
+        }
+
+        myNumber = _num;
+    }
+}
 ```
 
 ## Help
@@ -32,10 +53,10 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
+ex. Alber C Aquino  
 ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [SPDX-M] License - see the LICENSE.md file for details
