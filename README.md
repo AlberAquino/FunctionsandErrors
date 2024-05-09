@@ -54,9 +54,9 @@ command to run if program contains helper info
 Contributors names and contact info
 
 ex. Alber C Aquino  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. https://www.facebook.com/DBGTK
 
 
 ## License
 
-This project is licensed under the [SPDX-M] License - see the LICENSE.md file for details
+This project is licensed under the [SPDX-MIT] License - see the LICENSE.md file for details
