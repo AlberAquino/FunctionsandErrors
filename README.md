@@ -1,24 +1,33 @@
-# Project Title
+# Solidity Smart Contract: Understanding require(), assert(), and revert()
 
-ETH: Functions are essential components of smart contracts in Ethereum. Self-executing contracts, or smart contracts, have the conditions of the contract explicitly encoded into the code. These contracts' behaviors are defined by their functions. They are capable of carrying out a number of functions, including exchanging tokens, changing contract states, communicating with other contracts, and carrying out business logic.
+A basic Solidity smart contract that shows how to use the require(), assert(), and revert() statements can be found in this repository. In the creation of smart contracts, these assertions are crucial for managing special situations, verifying internal state, and imposing preconditions.
 
-AVAX: Functions are crucial parts of smart contracts in Avalanche as well. Avalanche facilitates the development of smart contracts and decentralized applications (dApps). Functions including voting procedures, token transfers, decentralized finance (DeFi) operations, and more can be defined in these contracts.
+#Requirements
 
-## Description
+In order to communicate with the smart contract, you must:
 
-An in-depth paragraph about your project and overview of use.
+An Ethereum smart contract development environment (such as Remix, Truffle, Hardhat)
+An Ethereum wallet or client (e.g., MetaMask) to deploy and interact with the contract on a testnet or mainnet
 
 ## Getting Started
 
 ### Installing
+To clone this repository locally, go to: https
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Open the project directory by going to cd solidity-assertions.
+
+In the Solidity development environment of your choice, open the RequireAssertRevert.sol file.
+
+Put the smart contract together.
+
+Install the smart contract on the Ethereum network of your choice (mainnet or testnet).
+
+Use the supplied functions to communicate with the deployed contract, such as setNumber().
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+
 ```
 code blocks for commands
 // SPDX-License-Identifier: MIT
@@ -55,8 +64,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Alber C Aquino  
-ex. https://www.facebook.com/DBGTK
+. Alber C Aquino  
+. https://www.facebook.com/DBGTK
 
 
 ## License
