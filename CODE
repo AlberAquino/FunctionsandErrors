@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Aldrin {
+contract Alber {
     uint256 public myNumber;
 
     function setNumber(uint256 _num) external {
