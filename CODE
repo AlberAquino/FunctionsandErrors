@@ -2,20 +2,37 @@
 pragma solidity ^0.8.0;
 
 contract Alber {
-    uint256 public myNumber;
+    uint256 public counter;
 
-    function setNumber(uint256 _num) external {
+    function increment(uint256 _value) external {
         // Using require() to validate input
-        require(_num != 0, "Number cannot be zero");
-        
+        require(_value != 0, "Value cannot be zero");
+
         // Using assert() to validate internal state
-        assert(myNumber + _num > myNumber);
+        assert(counter + _value > counter);
+
+        // Increment the counter
+        counter += _value;
+    }
+
+    function decrement(uint256 _value) external {
+        // Using require() to validate input
+        require(_value != 0, "Value cannot be zero");
 
         // Using revert() to revert the transaction
-        if (_num > 100) {
-            revert("Number is too large");
+        if (_value > counter) {
+            revert("Value is greater than the counter");
         }
 
-        myNumber = _num;
+        // Decrement the counter
+        counter -= _value;
+    }
+
+    function doubleCounter() external {
+        // Using assert() to validate internal state
+        assert(counter * 2 > counter);
+
+        // Double the counter value
+        counter *= 2;
     }
 }
